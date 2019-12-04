@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  background-color: #202020;
+}
+
+.iframe-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.switch-projects {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+
+}
+
+.switch-projects-button {
+  background-color: #60528b;
+  border-radius: 9px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: "SegoeWP-Light", "Arial", sans-serif;
+  font-size: 20px;
+  min-width: 114px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.switch-projects-button:active {
+  background-color: #009fff;
+}
+
+.back-button {
+  margin-top: 10px;
+}
+
+@media (max-width: 860px) {
+  .switch-platform {
+    display: none;
+  }
+}

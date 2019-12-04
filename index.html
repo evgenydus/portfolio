@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Evgeny Dus - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+  <link href="./src/styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="content-wrapper">
+    <header class="header">
+      <div class="avatar-block">
+        <img class="avatar" src="./src/assets/images/ava.jpg" alt="avatar">
+        <div class="name-block">
+          <h2 class="name">EVGENY<br> DUS</h2>
+          <h4 class="profession">Front-End Developer</h4>
+        </div>
+      </div>
+      <div class="contacts">
+        <ul class="text">
+          <li class="contact-item">
+            Mobile:
+            <span class="contact-content">+375 25 927-24-22</span>
+          </li>
+          <li class="contact-item">
+            E-mail:
+            <a class="contact-content link" href="mailto:evgeny21dus@gmail.com">evgeny21dus@gmail.com</a>
+          </li>
+          <li class="contact-item">
+            Github:
+            <a class="contact-content link" href="https://github.com/evgenydus">evgenydus</a>
+          </li>
+          <li class="contact-item">
+            Telegram:
+            <a class="contact-content link" href="https://t.me/jenyadus">@jenyadus</a>
+          </li>
+          <li class="contact-item">
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/evgeny-dus-314698185/" class="contact-content">Evgeny Dus</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <div class="collapsible">
+        <div class="collapsible-title">
+          <span>Education</span>
+        </div>
+        <div>
+          <div class="opener"></div>
+        </div>
+      </div>
+      <div class="content">
+        <ul class="content-list">
+          <li class="content-list-item">
+            <p>School</p>
+            <p>1999-2009</p>
+          </li>
+          <li class="content-list-item">
+            <p>BSUPC</p>
+            <p>2009-2013</p>
+          </li>
+          <li class="content-list-item">
+            <p>RSSchool Courses</p>
+            <p>2019-2020</p>
+          </li>
+        </ul>
+      </div>
+      <div class="projects-header">
+        <div class="collapsible-title">
+          <span>Projects</span>
+        </div>
+      </div>
+      <div class="slider-wrapper">
+        <div class="slide active">
+          <div class="slide-field">
+            <div class="description-container">
+              <h2 class="description-title">Theyalow</h2>
+              <h3 class="description">Key approaches:</h3>
+              <ul>
+                <li class="description-list">Flexbox</li>
+                <li class="description-list">SVG</li>
+                <li class="description-list">Adaptive</li>
+              </ul>
+            </div>
+            <a class="project-link" href="/src/projects/theyallow/index.html">
+              <img class="picture" src="/src/assets/images/theyalow.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-field">
+            <div class="description-container">
+              <h2 class="description-title">Repair Design Project</h2>
+              <h3 class="description">Key approaches:</h3>
+              <ul>
+                <li class="description-list">Flexbox</li>
+                <li class="description-list">SVG</li>
+                <li class="description-list">Responsive</li>
+                <li class="description-list">Embed video</li>
+                <li class="description-list">Forms</li>
+              </ul>
+            </div>
+            <a class="project-link" href="/src/projects/repair-design-project/index.html">
+              <img class="picture" src="/src/assets/images/repair.jpg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="control left">
+          <div class="arrow left"></div>
+        </div>
+        <div class="control right">
+          <div class="arrow right"></div>
+        </div>
+        <div class="show-description-button">
+          <span class="description-button-text">Show description</span>
+          <span class="description-button-text hidden">Hide description</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./src/script.js"></script>
+</body>
+</html>
